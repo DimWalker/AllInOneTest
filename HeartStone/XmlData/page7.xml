@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <CardDetail>
+    <Name>暗影形态</Name>
+    <Decription>你的英雄技能变为“造成2点伤害”，如果已经处于暗影形态下：改为“造成3点伤害”。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shadowform.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暗言术：灭</Name>
+    <Decription>消灭一个攻击力大于或等于5的随从。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shadow Word Death.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暗言术：痛</Name>
+    <Decription>消灭一个攻击力小于或等于3的随从。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shadow Word Pain.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>北郡牧师</Name>
+    <Decription>每当一个随从获得治疗时，抽1张牌。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Northshire Cleric.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>心灵震爆</Name>
+    <Decription>对敌方英雄造成5点伤害。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mind Blast.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>神圣之灵</Name>
+    <Decription>使一个随从的生命值翻倍。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Divine Spirit.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>光明之泉</Name>
+    <Decription>在你的回合开始时，随机为一个受到伤害的友方角色恢复3点生命值。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>5</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Lightwell.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>真言术：盾</Name>
+    <Decription>使一个随从获得+2生命值。 抽一张牌。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Power Word Shield.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>神圣惩击</Name>
+    <Decription>造成2点伤害。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Holy Smite.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>心灵视界</Name>
+    <Decription>随机复制你的对手手牌中的一张牌，将其置入你的手牌。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mind Vision.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>沉默</Name>
+    <Decription>沉默一个随从。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Silence.png</ImgSrc>
+    <SkillForm>
+      <Skill>沉默</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>治疗之环</Name>
+    <Decription>为所有随从恢复4点生命值。</Decription>
+    <Occupation>牧师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Circle of Healing.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>追踪术</Name>
+    <Decription>查看你卡堆顶部的3张牌，抽取1张，弃掉其它2张。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Tracking.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>森林狼</Name>
+    <Decription>你的其他野兽获得+1攻击。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>1</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Timber Wolf.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>多重射击</Name>
+    <Decription>随机对2名敌对随从造成3点伤害。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Multi-Shot.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>驯兽师</Name>
+    <Decription>战吼：使1个友方野兽获得+2/+2和嘲讽。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>4</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Houndmaster.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥术射击</Name>
+    <Decription>造成2点伤害。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcane Shot.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>关门放狗</Name>
+    <Decription>战场上每有一个敌方随从，便召唤一个1/1并具有冲锋的猎犬。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Unleash the Hounds.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>苔原犀牛</Name>
+    <Decription>使你的野兽获得冲锋。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>2</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Tundra Rhino.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>饥饿的秃鹫</Name>
+    <Decription>你每召唤1个野兽，抽1张牌。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Starving Buzzard.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>狙击</Name>
+    <Decription>奥秘：当对手打出1个随从时，对该随从造成4点伤害。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Snipe.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>食腐土狼</Name>
+    <Decription>每死1头野兽，获得+2/+1。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Scavenging Hyena.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>杀戮命令</Name>
+    <Decription>造成3点伤害。如果你有野兽，那么造成5点伤害取而代之。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Kill Command.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>猎人印记</Name>
+    <Decription>在本回合内，将1个随从的生命变为1。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hunter_s Mark.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>冰冻陷阱</Name>
+    <Decription>奥秘：当1个敌对随从攻击时，让其返回到所有者手中，并令其消耗增加（2）</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Freezing Trap.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>爆炸陷阱</Name>
+    <Decription>奥秘：当你的英雄受到攻击时，对所有敌人造成2点伤害。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Explosive Trap.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>致命射击</Name>
+    <Decription>随机摧毁1个敌对随从。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Deadly Shot.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>动物伙伴</Name>
+    <Decription>随机召唤1头野兽宠物。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Animal Companion.png</ImgSrc>
+    <SkillForm>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>长鬃草原狮</Name>
+    <Decription>亡语：召唤2只2/2土狼。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>6</Damage>
+    <HP>5</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Savannah Highmane.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>误导</Name>
+    <Decription>奥秘：当一个角色攻击你的英雄时，让他随机攻击另外一个角色取而代之。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Misdirection.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>照明弹</Name>
+    <Decription>使所有随从失去潜行效果。摧毁敌方所有奥秘。抽1张牌。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Flare.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>爆炸射击</Name>
+    <Decription>对1个随从造成5点伤害，并对相邻目标造成2点伤害。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>5</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Explosive Shot.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>鹰角弓</Name>
+    <Decription>每触发1个奥秘，获得+1耐久。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>装备</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Eaglehorn Bow.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>毒蛇陷阱</Name>
+    <Decription>奥秘：当你的1个随从遭到攻击时，召唤3条1/1毒蛇。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Snake Trap.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>角斗士的长弓</Name>
+    <Decription>你的英雄在攻击时具有免疫。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>装备</CardType>
+    <Cost>7</Cost>
+    <Damage>5</Damage>
+    <HP>2</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gladiator_s Longbow.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>狂野怒火</Name>
+    <Decription>在本回合内，使1个野兽获得+2攻击和免疫。</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Bestial Wrath.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暴龙王克鲁什</Name>
+    <Decription>冲锋</Decription>
+    <Occupation>猎人</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/King Krush.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>变形术</Name>
+    <Decription>使一个随从变形成为1/1的绵羊。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Polymorph.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>火球术</Name>
+    <Decription>造成6点伤害。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Fireball.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥术飞弹</Name>
+    <Decription>造成3点伤害，随机分配给敌方角色。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcane Missiles.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥术智慧</Name>
+    <Decription>抽2张牌。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcane Intellect.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>魔爆术</Name>
+    <Decription>对所有敌方随从造成1点伤害。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcane Explosion.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>水元素</Name>
+    <Decription>冻结任何受到水元素伤害的随从。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>3</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Water Elemental.png</ImgSrc>
+    <SkillForm>
+      <Skill>冻结</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>巫师学徒</Name>
+    <Decription>你的法术的法力值消耗减少（1）点。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Sorcerer_s Apprentice.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>镜像</Name>
+    <Decription>召唤两个0/2，并具有嘲讽的随从。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mirror Image.png</ImgSrc>
+    <SkillForm>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>镜像实体</Name>
+    <Decription>奥秘：当一个敌方随从进行攻击时，召唤一个该随从的复制。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mirror Entity.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>法力浮龙</Name>
+    <Decription>每当你施放一个法术时，便获得+1攻击力。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mana Wyrm.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>冰枪术</Name>
+    <Decription>使一个角色冻结，如果它已经被冻结，则改为对其造成4点伤害。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ice Lance.png</ImgSrc>
+    <SkillForm>
+      <Skill>冻结</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>寒冰护体</Name>
+    <Decription>奥秘：当你的英雄受到攻击时，获得8点护甲值。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ice Barrier.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>寒冰箭</Name>
+    <Decription>对一个角色造成3点伤害，并使其冻结。</Decription>
+    <Occupation>法师</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Frostbolt.png</ImgSrc>
+    <SkillForm>
+      <Skill>冻结</Skill>
+    </SkillForm>
+  </CardDetail>
+</root>

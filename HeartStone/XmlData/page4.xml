@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <CardDetail>
+    <Name>海巨人</Name>
+    <Decription>战场上每有一个其他随从，该牌的法力值消耗便减少（1）点。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>10</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Sea Giant.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>鱼人领军</Name>
+    <Decription>所有其他鱼人获得+2/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Murloc Warleader.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>山岭巨人</Name>
+    <Decription>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>12</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mountain Giant.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>熔核巨人</Name>
+    <Decription>你的英雄每受到1点伤害，这张牌的法力值消耗便减少（1）点。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>20</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Molten Giant.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>鱼人杀手蟹 </Name>
+    <Decription>战吼：消灭一个鱼人，并获得+2/+2。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>2</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hungry Crab.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>无面操纵者</Name>
+    <Decription>战吼：选择一个随从，成为它的复制。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Faceless Manipulator.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>末日预言者 </Name>
+    <Decription>在你的回合开始时，消灭所有随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>7</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Doomsayer.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>船长的鹦鹉</Name>
+    <Decription>战吼：随机从你的牌库中将一张海盗牌置入你的手牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>1</Damage>
+    <HP>2</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Captain_s Parrot.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>血骑士</Name>
+    <Decription>战吼：所有随从失去圣盾。每有一个随从失去圣盾，便获得+3/+3。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Blood Knight.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>王牌猎人 </Name>
+    <Decription>战吼：消灭一个攻击力大于或等于7的随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>4</Damage>
+    <HP>2</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Big Game Hunter.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>伊瑟拉</Name>
+    <Decription>在你的回合结束时，获得一张梦境牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>4</Damage>
+    <HP>12</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ysera.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>工匠大师欧沃斯巴克 </Name>
+    <Decription>战吼：使另一个随机随从变形成为一个5/5的恐龙或一个1/1的松鼠。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Tinkmaster Overspark.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>黑骑士</Name>
+    <Decription>战吼：消灭一个具有嘲讽的随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>4</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/The Black Knight.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>比斯巨兽</Name>
+    <Decription>亡语：为你的对手召唤1个3/3的芬克·恩霍尔。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>10</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/The Beast.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>希尔瓦娜斯·风行者</Name>
+    <Decription>亡语：控制一个随机敌方随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Sylvanas Windrunner.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>精英牛头人酋长</Name>
+    <Decription>战吼：让两位玩家都具有摇滚的能力！（双方各获得一张强力和弦牌）</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Elite Tauren Chieftain.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>炎魔之王拉格纳罗斯 </Name>
+    <Decription>无法攻击，在你的回合结束时，对一个随机敌人造成8点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>8</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ragnaros the Firelord.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥妮克希亚</Name>
+    <Decription>战吼：召唤数个1/1的雏龙，直到你的随从数量达到上限。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Onyxia.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>老瞎眼</Name>
+    <Decription>冲锋，在战场上每有一个其他鱼人便获得+1攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>2</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Old Murk-Eye.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>诺兹多姆</Name>
+    <Decription>所有玩家只有15秒的时间来进行他们的回合。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Nozdormu.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>纳特·帕格</Name>
+    <Decription>在你的回合开始时，你有50%的几率额外抽一张牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Nat Pagle.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>米尔豪斯·法力风暴</Name>
+    <Decription>战吼：下个回合敌方法术的法力值消耗为（0）点。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>4</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Millhouse Manastorm.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>玛里苟斯</Name>
+    <Decription>法术伤害+5</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>4</Damage>
+    <HP>12</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Malygos.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>游学者周卓</Name>
+    <Decription>每当一个玩家施放一个法术时，复制该法术，将其置入另一个玩家的手牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Lorewalker Cho.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>火车王里诺艾 </Name>
+    <Decription>冲锋，战吼：为你的对手召唤2只1/1的雏龙。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>6</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Leeroy Jenkins.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>穆克拉</Name>
+    <Decription>战吼：使你的对手获得2个香蕉。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/King Mukla.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>伊利丹·怒风</Name>
+    <Decription>每当你使用一张牌时，召唤一个2/1的埃辛诺斯烈焰。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>7</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Illidan Stormrage.png</ImgSrc>
+    <SkillForm>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>霍格</Name>
+    <Decription>在你的回合结束时，召唤一个2/2并具有嘲讽的豺狼人。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>4</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hogger.png</ImgSrc>
+    <SkillForm>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>哈里森·琼斯</Name>
+    <Decription>战吼：摧毁对手的武器，并抽数量等同于其耐久度的牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Harrison Jones.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>格鲁尔</Name>
+    <Decription>在每个回合结束时，获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>8</Cost>
+    <Damage>7</Damage>
+    <HP>7</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gruul.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>格尔宾·梅卡托克 </Name>
+    <Decription>战吼：进行一次惊人的发明。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>6</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gelbin Mekkatorque.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>死亡之翼</Name>
+    <Decription>战吼：消灭所有其他随从，并弃掉你的手牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>10</Cost>
+    <Damage>12</Damage>
+    <HP>12</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Deathwing.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>绿皮船长</Name>
+    <Decription>战吼：使你的武器获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Captain Greenskin.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>凯恩·血蹄</Name>
+    <Decription>亡语：召唤一个4/5的贝恩·血蹄。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>4</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Cairne Bloodhoof.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>血法师萨尔诺斯</Name>
+    <Decription>法术伤害+1，亡语：抽一张牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>1</Damage>
+    <HP>1</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Bloodmage Thalnos.png</ImgSrc>
+    <SkillForm>
+      <Skill>法术伤害</Skill>
+      <Skill>亡语</Skill>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>迦顿男爵</Name>
+    <Decription>在你的回合结束时，对所有其他角色造成2点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>7</Cost>
+    <Damage>7</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Baron Geddon.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>阿莱克丝塔萨</Name>
+    <Decription>战吼：使一个英雄的剩余生命值成为15。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>8</Damage>
+    <HP>8</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Alexstrasza.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>战歌指挥官</Name>
+    <Decription>每当你召唤一个攻击力小于或等于 3 的随从，使该随从获得冲锋。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Warsong Commander.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>英勇打击</Name>
+    <Decription>在本回合中，使你的英雄获得+4攻击力。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Heroic Strike.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>炽炎战斧</Name>
+    <Decription></Decription>
+    <Occupation>战士</Occupation>
+    <CardType>装备</CardType>
+    <Cost>2</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Fiery War Axe.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>斩杀</Name>
+    <Decription>消灭一个受过伤害的敌方随从。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Execute.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>冲锋</Name>
+    <Decription>使一个友方随从获得 +2 攻击力和冲锋。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Charge.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>旋风斩</Name>
+    <Decription>对所有随从造成1点伤害。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Whirlwind.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>猛击</Name>
+    <Decription>对一个随从造成2点伤害，如果它依然存活，则抽一张牌。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Slam.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>盾牌格挡</Name>
+    <Decription>获得5点护甲。抽1张牌。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shield Block.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>狂暴</Name>
+    <Decription>使一个受过伤害的随从获得+3/+3。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Rampage.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>库卡隆精英卫士</Name>
+    <Decription>冲锋</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>4</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Kor_kron Elite.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>怒火中烧</Name>
+    <Decription>对一个随从造成1点伤害，该随从获得+2攻击力。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Inner Rage.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>严酷的监工</Name>
+    <Decription>战吼：对一个随从造成1点伤害，并使其获得+2攻击力。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Cruel Taskmaster.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>顺劈斩</Name>
+    <Decription>对2个随机敌方随从造成2点伤害。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Cleave.png</ImgSrc>
+  </CardDetail>
+</root>

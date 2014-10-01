@@ -9,12 +9,17 @@ using System.Linq;
 using System.Text;
 using System.Net;
 using System.IO;
+using System.Collections;
 
 namespace Common.Http
 {
     public sealed class HttpWebHelper
     {
         public HttpWebHelper() { }
+
+        #region 获取cookie
+
+        #endregion
 
         #region 图片下载
         /// <summary>
@@ -28,7 +33,7 @@ namespace Common.Http
             return DowloadImg(Url, savePath);
         }
         /// <summary>
-        /// 下载图片，传参cookCon，可以验证码
+        /// 下载图片，理论上传参cookCon可以验证码
         /// </summary>
         /// <param name="Url"></param>
         /// <param name="savePath"></param>
@@ -103,7 +108,7 @@ namespace Common.Http
                         }
                         return list.ToArray();
                     }
-                }
+                }                
             }
             catch (WebException ex)
             {
@@ -113,6 +118,53 @@ namespace Common.Http
             {
                 throw ex;
             }
+        }
+        #endregion
+
+        #region 抓取网页
+        //根据Url地址得到网页的html源码 
+        public static string GetWebContent(string Url)
+        {
+            return GetWebContent(Url, Encoding.Default);
+        }
+
+        public static string GetWebContent(string Url, Encoding encoding)
+        {
+            string strResult = "";
+            HttpWebRequest request;
+            try
+            {
+                //声明一个HttpWebRequest请求 
+                request = (HttpWebRequest)WebRequest.Create(Url);
+                //设置连接超时时间 
+                request.Timeout = 60000;                
+                request.Headers.Set("Pragma", "no-cache");              
+                request.UserAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Maxthon; .NET CLR 1.1.4322)"; 
+                request.Method = "GET";                 
+                request.KeepAlive = false ;
+                request.ServicePoint.ConnectionLimit = 50;
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
+                    //if (response.StatusCode != HttpStatusCode.OK) //如果服务器未响应，那么继续等待相应
+                    //{ 
+                    
+                    //}
+                    using (Stream streamReceive = response.GetResponseStream())
+                    {
+                        using (StreamReader streamReader = new StreamReader(streamReceive, encoding))
+                        {
+                            strResult = streamReader.ReadToEnd();
+                        }
+                    }
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            request.Abort();
+            return strResult;
         }
         #endregion
     }

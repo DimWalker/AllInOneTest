@@ -1,0 +1,1731 @@
+﻿<!doctype html>
+<!--
+    设计：罗俊
+    制作：罗俊
+    编辑：
+    创建时间：2013年06月
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>多玩炉石传说卡牌数据库</title>
+    <meta content=",多玩炉石传说卡牌数据库" name="Description" />
+    <meta content=",多玩炉石传说卡牌数据库,魔兽英雄传卡牌数据,国服炉石数据,炉石数据" name="Keywords" />
+
+    <script src="http://www.duowan.com/assets/js/jquery.js"></script>
+
+    <script src="http://www.duowan.com/assets/js/dww3.js"></script>
+
+    <link rel="stylesheet" href="http://db.duowan.com/static/lushi/v1306/global.css" />
+    <link rel="stylesheet" href="http://db.duowan.com/static/lushi/v1306/dwzq-common.css">
+    <link rel="stylesheet" href=" http://db.duowan.com/static/mt/jqueryui/css/bootstrap/jquery-ui-1.10.0.custom.css">
+    <link rel="stylesheet" href="http://assets.dwstatic.com/b=lego/1.0.0/css&f=mod.datatips.css">
+
+    <script src="http://assets.dwstatic.com/b=lego/1.0.0/js&f=lego.tooltip.js"></script>
+
+    <base target="_blank" />
+</head>
+<body>
+    <!-- 5253通用导航{ -->
+
+    <script src="http://assets.dwstatic.com/f=project/mobigame5253/js/5253sitenav.js"></script>
+
+    <!-- }5253通用导航 -->
+    <!--wrap { -->
+    <div class="wrap info-wrap">
+        <div id="header">
+            <div class="box-1">
+                <!-- 下拉菜单{ -->
+                <div class="nav">
+                    <div id="menu1" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/" style="background: none;">专区首页</a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menusel -->
+                    <div id="menu2" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/decks/" style="background: none;"><span style="color: #ffffff;">
+                                卡组站</span></a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse2 -->
+                    <div id="menu3" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/video/" style="background: none;"><span style="color: #ffffff;">
+                                视频站</span></a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse9 -->
+                    <div id="menu9" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/zhibo/" style="background: none;"><span style="color: #ffffff;">
+                                直播站</span></a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse3 -->
+                    <div id="menu4" class="menusel">
+                        <h2>
+                            <a href="http://db.duowan.com/lushi">卡牌数据库</a></h2>
+                        <div class="position">
+                            <ul class="clearfix typeul">
+                                <li><a href="http://db.duowan.com/lushi">全部卡牌</a></li>
+                                <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUxNGRcdThkMzkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    免费卡牌</a></li>
+                                <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTY2NmVcdTkwMWEiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    普通卡牌</a> </li>
+                                <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTdhMDBcdTY3MDkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    稀有卡牌</a></li>
+                                <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUzZjJcdThiZDciLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    史诗卡牌</a> </li>
+                                <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTRmMjBcdThiZjQiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    传说卡牌</a></li>
+                            </ul>
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse4 -->
+                    <div id="menu5" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/deckbuilder/index.html">卡组模拟器</a></h2>
+                        <div class="position">
+                            <ul class="clearfix typeul">
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^2">德鲁伊</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^4">猎人</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^3">法师</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^7">圣骑士</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^5">牧师</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^1">盗贼</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^6">萨满祭司</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^8">术士</a></li>
+                                <li><a href="http://ls.duowan.com/deckbuilder/index.html#^9">战士</a></li>
+                            </ul>
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse5 -->
+                    <div id="menu6" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/deckbuilder/arena.html" style="background: none;">竞技场模拟器</a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse6 -->
+                    <div id="menu7" class="menusel">
+                        <h2>
+                            <a href="http://ls.duowan.com/1312/250616473325.html" style="background: none;">手机看炉石</a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+                    <!-- menuse7 -->
+                    <div id="menu8" class="menusel">
+                        <h2>
+                            <a href="http://bbs.duowan.com/forum-2154-1.html" style="background: none;">炉石论坛</a></h2>
+                        <div class="position">
+                        </div>
+                        <!-- position -->
+                    </div>
+
+                    <script type="text/javascript"> 
+       $(".menusel").hover(function() {
+        $(this).find('.position>ul').show();
+      }, function() {
+        $(this).find('.position>ul').hide();
+      });
+      $(".menusel li").hover(function() {
+        $(this).find('>ul').show();
+      }, function() {
+        $(this).find('>ul').hide();
+      });
+                    </script>
+
+                </div>
+                <!-- }下拉菜单 -->
+            </div>
+        </div>
+        <!--header }-->
+        <div class="blank10">
+        </div>
+        <!--搜索{ -->
+        <div class="search-box clearfix">
+            <div class="form">
+                <form class="clearfix" accept-charset="utf-8" target="_self" action="http://db.duowan.com/lushi/card/search.html"
+                method="get" id="globalSearch">
+                <input type="hidden" name="title" value="Special:搜索">
+                <input type="search" id="searchInput" title="搜索卡牌、技能、副本" accesskey="f" name="q" value="">
+                <input type="hidden" value="搜索" name="fulltext">
+                <a target="_self" onclick="jQuery('#globalSearch').submit()" class="btn">搜索</a>
+                </form>
+            </div>
+            <div class="form-info">
+                <b>热门搜索：</b> <a href="http://db.duowan.com/lushi/card/search.html?q=%E7%82%8E%E9%AD%94%E4%B9%8B%E7%8E%8B%E6%8B%89%E6%A0%BC%E7%BA%B3%E7%BD%97%E6%96%AF"
+                    title="">[炎魔之王拉格纳罗斯]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E5%B8%8C%E5%B0%94%E7%93%A6%E5%A8%9C%E6%96%AF%C2%B7%E9%A3%8E%E8%A1%8C%E8%80%85"
+                        title="">[希尔瓦娜斯·风行者]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E4%BC%8A%E7%91%9F%E6%8B%89"
+                            title="">[伊瑟拉]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E6%8F%90%E9%87%8C%E5%A5%A5%C2%B7%E5%BC%97%E4%B8%81"
+                                title="">[提里奥·弗丁]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E6%A0%BC%E7%BD%97%E7%8E%9B%E4%BB%80%C2%B7%E5%9C%B0%E7%8B%B1%E5%92%86%E5%93%AE"
+                                    title="">[格罗玛什·地狱咆哮]</a>
+            </div>
+        </div>
+        <!--}搜索 -->
+        <div class="blank10">
+        </div>
+        <!--layout{ -->
+        <div class="layout clearfix">
+            <div class="main-info">
+                <!--{mod-choose -->
+                <div class="mod-choose clearfix">
+                    <div class="mod-hd">
+                        <h3 class="t-3">
+                            类别筛选</h3>
+                        <a target="_top" href="http://db.duowan.com/lushi/card/list/W10_3_.html" class="more">
+                            重置筛选条件</a></div>
+                    <div class="mod-bd clearfix">
+                        <div>
+                            <b>职业：</b> <a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                不限</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NmNkNVx1NWUwOCIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                    法师</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzZkN1x1OGQzYyIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                        盗贼</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzI2N1x1NWUwOCIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                            牧师</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjcyZlx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                术士</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjIxOFx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                    战士</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzMwZVx1NGViYSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                        猎人</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1ODQyOFx1NmVlMSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                            萨满</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NTcyM1x1OWE5MVx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                                圣骑士</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NWZiN1x1OWM4MVx1NGYwYSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                                    德鲁伊</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NGUyZFx1N2FjYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                                        中立</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjViMFx1NTM2MVx1NzI0YyIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">
+                                                                            新卡牌</a>
+                        </div>
+                        <div>
+                            <b>类型：</b> <a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                不限</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU5NjhmXHU0ZWNlIiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                    随从</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU2Y2Q1XHU2NzJmIiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                        法术</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU4OGM1XHU1OTA3IiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                            装备</a>
+                        </div>
+                        <div>
+                            <b>稀有度：</b> <a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                不限</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUxNGRcdThkMzkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                    免费</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTY2NmVcdTkwMWEiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                        普通</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTdhMDBcdTY3MDkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                            稀有</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUzZjJcdThiZDciLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                                史诗</a> <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTRmMjBcdThiZjQiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">
+                                                    传说</a>
+                        </div>
+                    </div>
+                </div>
+                <!--mod-choose} -->
+                <div class="blank10">
+                </div>
+                <div class="mod-table table-gray">
+                    <table class="table-s3">
+                        <colgroup>
+                            <col>
+                            <col class="even">
+                            <col>
+                            <col class="even">
+                            <col>
+                            <col class="even">
+                            <col>
+                            <col class="even">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    名称
+                                </th>
+                                <th scope="col">
+                                    技能
+                                </th>
+                                <th scope="col">
+                                    描述
+                                </th>
+                                <th scope="col">
+                                    职业
+                                </th>
+                                <th scope="col">
+                                    类型
+                                </th>
+                                <th scope="col">
+                                    <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiTWFuYS5hc2MifQ_3__3_.html">
+                                        <em>法力</em><div class="arrow">
+                                            <i class="up"></i><i class="down"></i>
+                                        </div>
+                                    </a>
+                                </th>
+                                <th scope="col">
+                                    <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiQXR0YWNrLmFzYyJ9.html">
+                                        <em>攻击</em><div class="arrow">
+                                            <i class="up"></i><i class="down"></i>
+                                        </div>
+                                    </a>
+                                </th>
+                                <th scope="col">
+                                    <a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiSGVhbHRoLmFzYyJ9.html">
+                                        <em>生命</em><div class="arrow">
+                                            <i class="up"></i><i class="down"></i>
+                                        </div>
+                                    </a>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Unstable_Ghoul.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Unstable Ghoul.png">蹒跚的食尸鬼</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Taunt（嘲讽：敌人必须攻击这个仆从）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Taunt.png"></a><a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img
+                                            src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    嘲讽，亡语：对所有随从造成1点伤害。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Nerub_ar_Weblord.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Nerub_ar Weblord.png">尼鲁巴蛛网领主</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    具有战吼的随从法力值消耗增加（2）点。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Haunted_Creeper.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Haunted Creeper.png">鬼灵爬行者</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：召唤两个1/1的鬼灵蜘蛛。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Spectral_Knight.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Spectral Knight.png">鬼灵骑士</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    无法成为法术或英雄技能的目标。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Zombie_Chow.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Zombie Chow.png">肉用僵尸</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：为敌方的英雄恢复5点生命值
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Stoneskin_Gargoyle.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Stoneskin Gargoyle.png">岩肤石像鬼</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    在你的回合开始时，为该随从恢复所有生命值。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Mad_Scientist.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Mad Scientist.png">疯狂的科学家</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：将一个奥秘从你的牌库置入战场。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Webspinner.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Webspinner.png">结网蛛</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：随机将一张野兽卡牌置入你的手牌。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Voidcaller.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Voidcaller.png">空灵召唤者</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：随机将一个恶魔从你的手牌置入战场。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Reincarnate.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Reincarnate.png">转生</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    消灭一个随从，然后将其复活，并恢复所有生命值。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    法术
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Duplicate.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Duplicate.png">复制</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Secret（奥秘：保持隐藏，直到被特定事件触发。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Secret.png"></a>
+                                </td>
+                                <td class="txt">
+                                    当一个友方随从死亡时，将两个该随从的复制置入你的手牌。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    法术
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Dark_Cultist.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Dark Cultist.png">黑暗教徒</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：使一个随机友方随从获得+3生命值。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Anub_ar_Ambusher.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Anub_ar Ambusher.png">阿努巴尔伏击者</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：将一个随机友方随从移回你的手牌。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Death_s_Bite.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Death_s Bite.png">死亡之咬</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：对所有随从造成1点伤害。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    装备
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Avenge.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Avenge.png">复仇</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Secret（奥秘：保持隐藏，直到被特定事件触发。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Secret.png"></a>
+                                </td>
+                                <td class="txt">
+                                    奥秘：当你的随从死亡时，使一个随机友方随从获得+3/+2。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    法术
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Poison_Seed.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Poison Seed.png">剧毒之种</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    消灭所有随从，并召唤等量的2/2的树人代替他们。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    法术
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Undertaker.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Undertaker.png">送葬者</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    每当你召唤一个具有亡语的随从，便获得+1/+1。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Dancing_Swords.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Dancing Swords.png">舞动之刃</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：你的对手抽一张牌。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #3366ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Nerubian_Egg.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Nerubian Egg.png">蛛魔之卵</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：召唤一个4/4的蛛魔。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #3366ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Waiking_Soul.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Waiking Soul.png">哀嚎的灵魂</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：沉默你的其他随从。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #3366ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Deathlord.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Deathlord.png">死亡领主</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Taunt（嘲讽：敌人必须攻击这个仆从）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Taunt.png"></a><a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img
+                                            src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    嘲讽，亡语：你的对手将一个随从从其牌库置入战场。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #3366ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Sludge_Belcher.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Sludge Belcher.png">淤泥喷射者</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Taunt（嘲讽：敌人必须攻击这个仆从）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Taunt.png"></a><a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img
+                                            src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    嘲讽，亡语：召唤一个1/2并具有嘲讽的泥浆怪。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #c600ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Shade_of_Naxxramas.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Shade of Naxxramas.png">纳克萨玛斯之影</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Stealth（潜行：潜行中单位不能被指定为技能目标或攻击目标，但其发动攻击后会立即脱离潜行。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Stealth.png"></a>
+                                </td>
+                                <td class="txt">
+                                    潜行。在你的回合开始时，获得+1/+1。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #c600ff" target="_blank" href="http://db.duowan.com/lushi/card/detail/Echoing_Ooze.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Echoing Ooze.png">分裂软泥怪</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：在回合结束时召唤一个该随从的复制。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Kel_Thuzad.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Kel_Thuzad.png">克尔苏加德</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    在每个回合结束时，召唤所有在本回合中死亡的友方随从。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Feugen.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Feugen.png">费尔根</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：如果斯塔拉格也在本局对战中死亡，召唤塔迪乌斯。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Stalagg.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Stalagg.png">斯塔拉格</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+                                </td>
+                                <td class="txt">
+                                    亡语：如果费尔根也在本局对战中死亡，召唤塔迪乌斯。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Baron_Rivendare.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Baron Rivendare.png">瑞文戴尔男爵</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    你的随从的亡语效果将触发两次。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Loatheb.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Loatheb.png">洛欧塞布</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：下一回合敌方法术的法力值消耗增加（5）点。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #FF6600" target="_blank" href="http://db.duowan.com/lushi/card/detail/Maexxna.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Maexxna.png">迈克斯纳</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    消灭任何受到该随从伤害的随从。
+                                </td>
+                                <td>
+                                    新卡牌
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Wolfrider.html" data-src="http://img.dwstatic.com/ls/pic/card/Wolfrider.png">
+                                        狼骑兵</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Charge（冲锋：可以立刻进行攻击）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Charge.png"></a>
+                                </td>
+                                <td class="txt">
+                                    冲锋
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Voodoo_Doctor.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Voodoo Doctor.png">巫医</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：恢复2点生命值。
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Stonetusk_Boar.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Stonetusk Boar.png">石牙野猪</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Charge（冲锋：可以立刻进行攻击）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Charge.png"></a>
+                                </td>
+                                <td class="txt">
+                                    冲锋
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Sen_jin_Shieldmasta.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Sen_jin Shieldmasta.png">森金持盾卫士</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Taunt（嘲讽：敌人必须攻击这个仆从）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Taunt.png"></a>
+                                </td>
+                                <td class="txt">
+                                    嘲讽
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/River_Crocolisk.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/River Crocolisk	.png">淡水鳄</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Reckless_Rocketeer.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Reckless Rocketeer.png">鲁莽火箭兵</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Charge（冲锋：可以立刻进行攻击）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Charge.png"></a>
+                                </td>
+                                <td class="txt">
+                                    冲锋
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Raid_Leader.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Raid Leader.png">团队领袖</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                    你的其他随从获得+1攻击。
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Oasis_Snapjaw.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Oasis Snapjaw.png">绿洲钳嘴龟</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Novice_Engineer.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Novice Engineer.png">工程师学徒 </a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：抽一张牌。
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Nightblade.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Nightblade.png">夜刃刺客</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：对敌方英雄造成3点伤害。
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Murloc_Raider.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Murloc Raider.png">鱼人袭击者</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Magma_Rager.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Magma Rager.png">岩浆暴怒者</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Boulderfist_Ogre.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Boulderfist Ogre.png">石拳食人魔</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/Bloodfen_Raptor.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Bloodfen Raptor.png">血沼迅猛龙</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Youthful_Brewmaster.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Youthful Brewmaster.png">年轻的酒仙</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Battlecry(战吼：当你出牌时产生的效果)">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+                                </td>
+                                <td class="txt">
+                                    战吼：使一个友方随从从战场上移回你的手牌。
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Young_Dragonhawk.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Young Dragonhawk.png">幼龙鹰</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Windfury（风怒：每个回合发动攻击后可以额外发动一次攻击。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Windfury.png"></a>
+                                </td>
+                                <td class="txt">
+                                    风怒
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Worgen_Infiltrator.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Worgen Infiltrator.png">狼人渗透者</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Stealth（潜行：潜行中单位不能被指定为技能目标或攻击目标，但其发动攻击后会立即脱离潜行。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Stealth.png"></a>
+                                </td>
+                                <td class="txt">
+                                    潜行
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Wisp.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Wisp.png">小精灵</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a style="color: #008000" target="_blank" href="http://db.duowan.com/lushi/card/detail/Windfury_Harpy.html"
+                                        data-src="http://img.dwstatic.com/ls/pic/card/Windfury Harpy.png">风怒鹰身人</a>
+                                </td>
+                                <td class="skill">
+                                    <a data-tips="Windfury（风怒：每个回合发动攻击后可以额外发动一次攻击。）">
+                                        <img src="http://img.dwstatic.com/ls/pic/mc/Windfury.png"></a>
+                                </td>
+                                <td class="txt">
+                                    风怒
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="name">
+                                    <a target="_blank" href="http://db.duowan.com/lushi/card/detail/War_Golem.html" data-src="http://img.dwstatic.com/ls/pic/card/War Golem.png">
+                                        作战傀儡</a>
+                                </td>
+                                <td class="skill">
+                                </td>
+                                <td class="txt">
+                                </td>
+                                <td>
+                                    中立
+                                </td>
+                                <td>
+                                    随从
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png">
+                                </td>
+                                <td>
+                                    7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                    <div class="blank10">
+                    </div>
+                    <!--分页码{ -->
+                    <div class="mod-page center">
+                        <a target="_self" title="上一页" rel="prev" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                            上一页</a> <a target="_self" class="current" title="已经是当前页" title="第1页" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                1</a> <a target="_self" title="第2页" href="http://db.duowan.com/lushi/card/list/eyJwIjoyLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                    2</a> <a target="_self" title="第3页" href="http://db.duowan.com/lushi/card/list/eyJwIjozLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                        3</a> <a target="_self" title="第4页" href="http://db.duowan.com/lushi/card/list/eyJwIjo0LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                            4</a> <a target="_self" title="第5页" href="http://db.duowan.com/lushi/card/list/eyJwIjo1LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                5</a> <a target="_self" title="第6页" href="http://db.duowan.com/lushi/card/list/eyJwIjo2LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                    6</a> <a target="_self" title="第7页" href="http://db.duowan.com/lushi/card/list/eyJwIjo3LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                        7</a> <a target="_self" title="第8页" href="http://db.duowan.com/lushi/card/list/eyJwIjo4LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                            8</a> <a target="_self" title="第9页" href="http://db.duowan.com/lushi/card/list/eyJwIjo5LCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                                9</a> <a target="_self" title="下一页" rel="next" href="http://db.duowan.com/lushi/card/list/eyJwIjoyLCJzb3J0IjoiaWQuZGVzYyJ9.html">
+                                                                    下一页</a>
+                    </div>
+                    <!--分页码} -->
+                    <div class="blank10">
+                    </div>
+                </div>
+            </div>
+            <!-- 模块内容PonyCui 2013.06.24 -->
+            <!--main-info} -->
+        </div>
+        <!--layout} -->
+        <div class="clear">
+        </div>
+        <div id="foot">
+            <!-- 版权信息{ -->
+
+            <script type="text/javascript" src="http://www.duowan.com/assets/js/duowanFooter.js"
+                charset="utf-8"></script>
+
+            <!-- }版权信息 -->
+
+            <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff5a3d04dd270514f19dca7de8101d698' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+
+        </div>
+    </div>
+    <!--} wrap-->
+
+    <script>
+			LEGO.toolTip({style: 2});
+			$(function(){
+				var x = 20;
+				var y = 20;
+				var z = 300;
+				$("td.name a").mouseover(function(e){
+
+					_winHeight = $(window).height();
+					_top = e.pageY - $(window).scrollTop();
+					_bottom = _winHeight - _top;
+					this.myTitle = this.title;
+					this.title = "";
+					var imgTitle = this.myTitle? "<br/>" + this.myTitle : "";
+					var tooltip = "<div id='tooltip'><img src='"+ $(this).attr('data-src') +"' alt='预览图'/>"+imgTitle+"<\/div>";
+					$("body").append(tooltip);
+
+					if(_bottom >= z){
+						$("#tooltip")
+						.css({
+							"position": "absolute",
+							"top": (e.pageY+y)  + "px",
+							"left":  (e.pageX+x)  + "px"
+						}).show()
+					}else if(_bottom < z){
+						$("#tooltip")
+						.css({
+							"position": "absolute",
+							"top": (e.pageY+y-z)  + "px",
+							"left":  (e.pageX+x)  + "px"
+						}).show()
+					}
+				}).mouseout(function(){
+					this.title = this.myTitle;
+					$("#tooltip").remove();
+				});
+			})
+    </script>
+
+</body>
+</html>

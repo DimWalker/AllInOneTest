@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <CardDetail>
+    <Name>风险投资公司雇佣兵</Name>
+    <Decription>你的随从牌的法力值消耗增加（3）点。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>7</Damage>
+    <HP>6</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Venture Co. Mercenary.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>萨尔玛先知</Name>
+    <Decription>风怒</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Thrallmar Farseer.png</ImgSrc>
+    <SkillForm>
+      <Skill>风怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>牛头人战士</Name>
+    <Decription>嘲讽，激怒：+3攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Tauren Warrior.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+      <Skill>激怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>荆棘谷猛虎</Name>
+    <Decription>潜行</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Stranglethorn Tiger.png</ImgSrc>
+    <SkillForm>
+      <Skill>潜行</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>暴风城骑士</Name>
+    <Decription>冲锋</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>2</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Stormwind Knight.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>暴风城勇士</Name>
+    <Decription>你的其他随从获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>7</Cost>
+    <Damage>6</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Stormwind Champion.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>雷矛特种兵</Name>
+    <Decription>战吼：造成2点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>4</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Stormpike Commando.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>恶毒铁匠</Name>
+    <Decription>激怒：你的武器获得+2攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>4</Damage>
+    <HP>6</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Spiteful Smith.png</ImgSrc>
+    <SkillForm>
+      <Skill>激怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>破法者</Name>
+    <Decription>战吼：沉默一个随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>4</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Spellbreaker.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>沉默</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>南海船工 </Name>
+    <Decription>当你装备一把武器时，该随从获得冲锋。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>2</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Southsea Deckhand.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>银月城卫兵</Name>
+    <Decription>圣盾</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Silvermoon Guardian.png</ImgSrc>
+    <SkillForm>
+      <Skill>圣盾</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>银背族长</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>1</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Silverback Patriarch.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>白银之手骑士</Name>
+    <Decription>战吼：召唤一个2/2的侍从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>4</Damage>
+    <HP>4</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Silver Hand Knight.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>持盾卫士</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>4</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shieldbearer.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>破碎残阳祭司</Name>
+    <Decription>战吼：使一个友方随从获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shattered Sun Cleric.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>年迈的酒仙</Name>
+    <Decription>战吼：使一个友方随从从战场上移回你的手牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>5</Damage>
+    <HP>4</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ancient Brewmaster.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>阿曼尼狂战士</Name>
+    <Decription>激怒：+3攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Amani Berserker.png</ImgSrc>
+    <SkillForm>
+      <Skill>激怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>苦痛侍僧</Name>
+    <Decription>每当该随从受到伤害时，抽一张牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>1</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Acolyte of Pain.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥术傀儡</Name>
+    <Decription>冲锋，战吼：使你的对手获得一个法力水晶。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>4</Damage>
+    <HP>2</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcane Golem.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>血色十字军战士 </Name>
+    <Decription>圣盾</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Scarlet Crusader.png</ImgSrc>
+    <SkillForm>
+      <Skill>圣盾</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>剃刀猎手</Name>
+    <Decription>战吼：召唤一个1/1的野猪。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Razorfen Hunter.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>暴怒的狼人</Name>
+    <Decription>激怒：+1攻击力并具有风怒。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Raging Worgen.png</ImgSrc>
+    <SkillForm>
+      <Skill>激怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>任务达人 </Name>
+    <Decription>每当你使用一张牌时，便获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Questing Adventurer.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>艾露恩的女祭司</Name>
+    <Decription>战吼：为你的英雄恢复4点生命值。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>5</Damage>
+    <HP>4</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Priestess of Elune.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>食人魔法师</Name>
+    <Decription>法术伤害+1</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>4</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ogre Magi.png</ImgSrc>
+    <SkillForm>
+      <Skill>法术伤害</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>鱼人猎潮者 </Name>
+    <Decription>战吼：召唤一个1/1的鱼人斥候。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>1</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Murloc Tidehunter.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>魔古山守望者</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>1</Damage>
+    <HP>7</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mogu_shan Warden.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>疯狂投弹者</Name>
+    <Decription>战吼：造成3点伤害，随机由所有其他角色分摊。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mad Bomber.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>竞技场主宰</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>6</Damage>
+    <HP>5</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Lord of the Arena.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>战利品贮藏者</Name>
+    <Decription>亡语：抽1张牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Loot Hoarder.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>麻疯侏儒</Name>
+    <Decription>亡语：对敌方英雄造成2点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>2</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Leper Gnome.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>狗头人地卜师</Name>
+    <Decription>法术伤害+1</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Kobold Geomancer.png</ImgSrc>
+    <SkillForm>
+      <Skill>法术伤害</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>丛林猎豹</Name>
+    <Decription>潜行</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>4</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Jungle Panther.png</ImgSrc>
+    <SkillForm>
+      <Skill>潜行</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>铁鬃灰熊</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ironfur Grizzly.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>铁炉堡火枪手</Name>
+    <Decription>战吼：造成1点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ironforge Rifleman.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>铁喙猫头鹰</Name>
+    <Decription>战吼：沉默一个随从。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Ironbeak Owl.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>沉默</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>麦田傀儡</Name>
+    <Decription>亡语：召唤一个2/1的损坏的傀儡。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Harvest Golem.png</ImgSrc>
+    <SkillForm>
+      <Skill>亡语</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>古拉巴什狂暴者</Name>
+    <Decription>每当该随从受到伤害时，获得+3攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>2</Damage>
+    <HP>7</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gurubashi Berserker.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暗鳞先知</Name>
+    <Decription>所有其他鱼人获得+1攻击力。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>1</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Grimscale Oracle.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>闪金镇步兵</Name>
+    <Decription>嘲讽。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Goldshire Footman.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>侏儒发明家</Name>
+    <Decription>战吼：抽一张牌。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>2</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gnomish Inventor.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>霜狼督军</Name>
+    <Decription>战吼：战场上每有1个其他友方随从，便获得+1/+1。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>4</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Frostwolf Warlord.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>霜狼步兵</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>2</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Frostwolf Grunt.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>冰霜元素</Name>
+    <Decription>战吼：冻结一个角色。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>5</Damage>
+    <HP>5</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Frost Elemental.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>冻结</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>沼泽爬行者</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>3</Damage>
+    <HP>6</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Fen Creeper.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>精灵龙</Name>
+    <Decription>无法成为法术或者英雄技能的目标。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Faerie Dragon.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>精灵弓箭手</Name>
+    <Decription>战吼：造成1点伤害。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>1</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Elven Archer.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>大地之环先知 </Name>
+    <Decription>战吼：恢复3点生命值。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Earthen Ring Farseer.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>恐怖海盗</Name>
+    <Decription>嘲讽。消耗降低，降低数值相当于你的武器攻击。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Dread Corsair.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>机械幼龙技工</Name>
+    <Decription>战吼：召唤一个2/1的机械幼龙。</Decription>
+    <Occupation>中立</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>2</Damage>
+    <HP>4</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Dragonling Mechanic.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+</root>

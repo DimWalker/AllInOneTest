@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CardDetail>
+  <Name></Name>
+  <Decription></Decription>
+  <Cost></Cost>
+  <Damage></Damage>
+  <HP></HP>
+  <CardType></CardType>
+  <Occupation></Occupation>
+  <Varity></Varity>
+  <ImgSrc></ImgSrc>
+  <SkillForm>
+    <Skill></Skill>
+    <Skill></Skill>
+  </SkillForm>
+</CardDetail>
+

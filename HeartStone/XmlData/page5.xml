@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <CardDetail>
+    <Name>战斗怒火</Name>
+    <Decription>每有一个受到伤害的友方角色，便抽一张牌。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Battle Rage.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>奥金斧</Name>
+    <Decription></Decription>
+    <Occupation>战士</Occupation>
+    <CardType>装备</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>2</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arcanite Reaper.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>阿拉希武器匠</Name>
+    <Decription>战吼：装备一把2/2的武器。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Arathi Weaponsmith.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>升级！</Name>
+    <Decription>如果你有一把武器，使它获得+1/+1。否则，装备一把1/3的武器。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Upgrade!.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>致死打击</Name>
+    <Decription>造成4点伤害；如果你的英雄的生命值小于或等于12点，则改为造成6点伤害。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mortal Strike.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暴乱狂战士</Name>
+    <Decription>每当一个随从受到伤害时，便获得+1攻击力。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>2</Damage>
+    <HP>4</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Frothing Berserker.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>命令怒吼</Name>
+    <Decription>本回合内，你随从的血量无法低于1点。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Commanding Shout.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>铸甲师</Name>
+    <Decription>每当一个友方随从受到伤害，便获得1点护甲值。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>1</Damage>
+    <HP>4</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Armorsmith.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>盾牌猛击</Name>
+    <Decription>你每有1点护甲值，便对一个随从造成1点伤害。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shield Slam.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>血吼</Name>
+    <Decription>攻击随从不会消耗耐久度，改为降低1点攻击力。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>装备</CardType>
+    <Cost>7</Cost>
+    <Damage>7</Damage>
+    <HP>1</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Gorehowl.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>绝命乱斗</Name>
+    <Decription>随机选择一个随从，消灭除了该随从外的所有其他随从。</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>5</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Brawl.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>格罗玛什·地狱咆哮</Name>
+    <Decription>冲锋，激怒：+6攻击力</Decription>
+    <Occupation>战士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>8</Cost>
+    <Damage>4</Damage>
+    <HP>9</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Grom Hellscream.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+      <Skill>激怒</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>虚空行者</Name>
+    <Decription>嘲讽</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>1</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Voidwalker.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>魅魔</Name>
+    <Decription>战吼：随机弃一张牌。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>2</Cost>
+    <Damage>4</Damage>
+    <HP>3</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Succubus.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>暗影箭</Name>
+    <Decription>对1名随从造成4点伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shadow Bolt.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>地狱烈焰</Name>
+    <Decription>对所有角色造成3点伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hellfire.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>吸取生命</Name>
+    <Decription>造成2点伤害，为你的英雄恢复2点生命值。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Drain Life.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>召唤传送门</Name>
+    <Decription>你的随从牌法力值消耗减少（2）点，但是不能少于（1）点。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>4</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Summoning Portal.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>灵魂之火</Name>
+    <Decription>造成4点伤害，随机弃一张牌。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Soulfire.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>感知恶魔</Name>
+    <Decription>从你的牌库中随机将2张恶魔牌置入你的手牌。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>3</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Sense Demons.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>牺牲契约</Name>
+    <Decription>牺牲一个恶魔，为你的英雄恢复5点生命值。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>0</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Sacrificial Pact.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>力量的代价</Name>
+    <Decription>直到回合结束，使一个友方随从获得+4/+4，然后将其消灭。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Power Overwhelming.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>死亡缠绕</Name>
+    <Decription>对一个随从造成1点伤害，如果死亡缠绕将其杀死，抽一张牌。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Mortal Coil.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>烈焰小鬼</Name>
+    <Decription>战吼：对你的英雄造成3点伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>3</Damage>
+    <HP>2</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Flame Imp.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>恐惧地狱火</Name>
+    <Decription>战吼：对所有其他角色造成1点伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>6</Cost>
+    <Damage>6</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Dread Infernal.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>恶魔之火</Name>
+    <Decription>对一个随从造成2点伤害，如果该随从是友方恶魔，则改为使其获得+2/+2。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Demonfire.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>腐蚀术</Name>
+    <Decription>选择一个敌方随从，在你的回合开始时，消灭该随从。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Corruption.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>鲜血小鬼</Name>
+    <Decription>潜行，在你的回合结束时，随机使一个其他友方随从获得+1 生命值。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>1</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Blood Imp.png</ImgSrc>
+    <SkillForm>
+      <Skill>潜行</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>虚空恐魔</Name>
+    <Decription>战吼：消灭该随从两侧的随从，并获得他们的攻击力和生命值。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>3</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Void Terror.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>灵魂虹吸</Name>
+    <Decription>消灭一个随从，为你的英雄恢复3点生命值。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>6</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Siphon Soul.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>暗影烈焰</Name>
+    <Decription>消灭一个友方随从，对所有敌方随从造成等同于其攻击力的伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Shadowflame.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>恶魔卫士</Name>
+    <Decription>嘲讽，战吼：摧毁你的一个法力水晶。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>3</Cost>
+    <Damage>3</Damage>
+    <HP>5</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Felguard.png</ImgSrc>
+    <SkillForm>
+      <Skill>嘲讽</Skill>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>末日守卫</Name>
+    <Decription>冲锋，战吼：随机弃2张牌。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>5</Cost>
+    <Damage>5</Damage>
+    <HP>7</HP>
+    <Varity>稀有</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Doomguard.png</ImgSrc>
+    <SkillForm>
+      <Skill>冲锋</Skill>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>扭曲虚空</Name>
+    <Decription>消灭所有随从。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>8</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Twisting Nether.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>深渊领主</Name>
+    <Decription>战吼：对你的英雄造成5点伤害。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>4</Cost>
+    <Damage>5</Damage>
+    <HP>6</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Pit Lord.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>末日灾祸</Name>
+    <Decription>对一个角色造成2点伤害，如果末日灾祸杀死该角色，随机召唤一个恶魔。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>5</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>史诗</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Bane of Doom.png</ImgSrc>
+    <SkillForm>
+      <Skill>召唤</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>加拉克苏斯大王</Name>
+    <Decription>战吼：消灭你的英雄，并用加拉克苏斯大王替换他。</Decription>
+    <Occupation>术士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>9</Cost>
+    <Damage>3</Damage>
+    <HP>15</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Lord Jaraxxus.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>圣光的正义</Name>
+    <Decription></Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>装备</CardType>
+    <Cost>1</Cost>
+    <Damage>4</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Light_s Justice.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>圣光术</Name>
+    <Decription>恢复6点生命值。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>2</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Holy Light.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>保护之手</Name>
+    <Decription>使一个随从获得圣盾。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hand of Protection.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>愤怒之锤</Name>
+    <Decription>造成3点伤害，抽一张牌。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Hammer of Wrath.png</ImgSrc>
+    <SkillForm>
+      <Skill>抽牌</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>力量祝福</Name>
+    <Decription>使一个随从获得+3攻击力。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Blessing of Might.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>真银圣剑</Name>
+    <Decription>每当你的英雄进攻时，为其恢复2点生命值。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>装备</CardType>
+    <Cost>4</Cost>
+    <Damage>4</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Truesilver Champion.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>忏悔</Name>
+    <Decription>奥秘：当你的对手召唤一个随从，使该随从的生命值降为1。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Repentance.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>救赎</Name>
+    <Decription>奥秘：当一个你的随从死亡时，使其回到战场，并具有1点生命值。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Redemption.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>崇高牺牲 </Name>
+    <Decription>奥秘：每当一个敌人攻击时，召唤一个2/1的防御者，并使其成为攻击的目标。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Noble Sacrifice.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>谦逊</Name>
+    <Decription>使一个随从的攻击力变为1。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Humility.png</ImgSrc>
+  </CardDetail>
+  <CardDetail>
+    <Name>列王守卫</Name>
+    <Decription>战吼：为你的英雄恢复6点生命值。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>随从</CardType>
+    <Cost>7</Cost>
+    <Damage>5</Damage>
+    <HP>6</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Guardian of Kings.png</ImgSrc>
+    <SkillForm>
+      <Skill>战吼</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>以眼还眼</Name>
+    <Decription>奥秘：每当你的英雄受到伤害时，对敌方英雄造成等量的伤害。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>1</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity>普通</Varity>
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Eye for an Eye.png</ImgSrc>
+    <SkillForm>
+      <Skill>奥秘</Skill>
+    </SkillForm>
+  </CardDetail>
+  <CardDetail>
+    <Name>奉献</Name>
+    <Decription>对所有敌人造成2点伤害。</Decription>
+    <Occupation>圣骑士</Occupation>
+    <CardType>法术</CardType>
+    <Cost>4</Cost>
+    <Damage>0</Damage>
+    <HP>0</HP>
+    <Varity />
+    <ImgSrc>http://img.dwstatic.com/ls/pic/card/Consecration.png</ImgSrc>
+  </CardDetail>
+</root>
